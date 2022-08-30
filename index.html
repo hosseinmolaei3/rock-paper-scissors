@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="image-and-icon/rock-paper-scissors-neon-icons.jpg" type="image/x-icon">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <input type="button" id="input" class="input1" onclick="selected(1)"  height="400" />
+      <input type="button" id="input" class="input2" onclick="selected(2)"  height="400" />
+      <input type="button" id="input" class="input3" onclick="selected(3)"  height="400" />
+    </div>
+    <div id="score" class="score">
+      <span> computer: </span>
+      <p id="c-score" class="c-score"></p>
+      <span>multiplayer:</span>
+      <p id="m-score" class="m-score"></p>
+      <p id="p" class="p"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
